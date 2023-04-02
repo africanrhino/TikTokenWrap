@@ -28,7 +28,7 @@ require_once 'TikTokenWrap.php';
 
 // Encode a string using the TikToken library
 $input_string = "This is a sample string.";
-$encoding = "some_encoding";
+$encoding = "p50k_base"; //cl100k_base , p50k_base etc;
 $result = TikTokenWrap::encode($input_string, $encoding);
 print_r($result);
 

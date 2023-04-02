@@ -1,10 +1,7 @@
-# TikTokenWrap
- tiktokenwrap is a wrapper in php for tiktoken the fast BPE tokeniser for use with OpenAI's models. 
-
 TikTokenWrap
 ============
 
-TikTokenWrap is a PHP wrapper for the TikToken Python library, which allows encoding and decoding strings using the specified encodings from the TikToken library. It provides a convenient way to use the TikToken library in PHP code by executing Python code as shell commands and handling the input/output between PHP and Python.
+TikTokenWrap is a PHP wrapper for the TikToken, the fast BPE tokeniser for OpenAI's models, Python library, which allows encoding and decoding strings using the specified encodings from the TikToken library. It provides a convenient way to use the TikToken library in PHP code by executing Python code as shell commands and handling the input/output between PHP and Python.
 
 Prerequisites
 -------------
